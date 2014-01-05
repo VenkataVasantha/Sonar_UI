@@ -1,0 +1,66 @@
+<!-- vim:set ft=html:ts=4:sts=4 -->
+<!--DOCTYPE HTML -->
+
+<html lang ="en">
+<head>
+	<meta charset ="utf-8">
+	<title>Screen1</title>
+	<link rel="stylesheet" type="text/css" href="css/screen1.css" />
+</head>	
+<body>
+	<div id = "container">
+		<div id = "main-title">
+			<span class = "title-text">Sonar</span><span class = "title-text1">  web based host monitoring</span>
+		</div>
+
+		<div class="body">
+
+			<div class="row2">
+				<div class="col">
+					<div class = "title">List of hosts monitored:</div>
+				</div>
+				<div class="col right-align">
+					<input type="text" name="srch" class="txtbx"/>
+					<input type="button" value="Search" class="srch-btn" />
+				</div>
+			</div>
+
+			<div id = "box">
+				<div id = "table">
+					<table>
+						<tr>
+							<th class ="table-title"/><input type = "checkbox"></td>
+							<th class = "table-title"/>Sno</td>
+							<th class= "table-title"/>Hostname</td>
+							<th class = "table-title"/>Actions</td>
+						</tr>
+						<tr>
+							<td class = "table-data"/><input type = "checkbox"></td>
+							<td class = "table-data"/>1</td>
+							<td class = "table-data"/>Note book</td>
+							<td class = "table-data"/><a href= "##">View Details</a></td>
+						</tr>
+						<tr>
+							<td class = "table-data row-color"/><input type = "checkbox"></td>
+							<td class = "table-data row-color"/>2</td>
+							<td class = "table-data row-color"/>Laptop</td>
+							<td class = "table-data row-color"/><a href ="##">View Details</a></td>
+						</tr>
+						<tr>
+							<td class = "table-data"/><input type = "checkbox"></td>
+							<td class = "table-data"/>3</td>
+							<td class = "table-data"/>Alwaysaway</td>
+							<td class = "table-data"/><a href ="##">View Details</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id = "delete-button">
+				<input type = "submit" value ="Delete Selected"/>
+			</div>
+
+		</div>
+	</div>	
+	
+</body>	
+</html>
